@@ -3,6 +3,10 @@
 // 1/9/2024
 // Template for calculator application
 
+// Terra Brown
+// 01/16/2024
+// Add arithmetic methods to the calculator
+
 package edu.fscj.cen3024c.simplecalculator;
 
 import org.springframework.boot.SpringApplication;
