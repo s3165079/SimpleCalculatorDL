@@ -3,6 +3,10 @@
 // 1/9/2024
 // Template for calculator application
 
+// Terra Brown
+// 01/16/2024
+// Add arithmetic methods to the calculator
+
 package edu.fscj.cen3024c.simplecalculator;
 
 import org.springframework.boot.SpringApplication;
@@ -30,5 +34,25 @@ public class SimpleCalculatorApplication {
         // Test the subtract function
         result = subtract(number1, number2);
         System.out.println("Add result is: " + result);
+    }
+
+    // Multiply two numbers
+    public static int multiply(int number1, int number2) {
+        return number1 * number2;
+    }
+
+    // Divide two numbers
+    public static int divide(int number1, int number2) {
+        return number1 / number2;
+    }
+
+    // Add two numbers
+    public static int add(int number1, int number2) {
+        return number1 + number2;
+    }
+
+    // Subtract two numbers
+    public static int subtract(int number1, int number2) {
+        return number1 - number2;
     }
 }
